@@ -1,0 +1,22 @@
+2. eplain the difference between Absolute and Relative positionin.
+
+Absolute :
+
+In CSS, absolute positioning removes an element from the normal flow of the page. The element is drawn separately, on top of everything else. The position of the element is relative to the position of another, enclosing element.
+
+syntax :
+
+{
+    position: absolute;
+}
+
+
+Relative :
+ 
+Relative positioning positions an element relative to its default position on the page. The element still takes up space in the normal flow of the page, but it can be shifted in any direction. The position of the element is relative to the position that the element itself would have without positioning. 
+
+syntax:
+
+{
+    position:relative;
+}
